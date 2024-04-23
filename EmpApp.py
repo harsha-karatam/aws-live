@@ -9,6 +9,8 @@ app = Flask(__name__)
 bucket = custombucket
 region = customregion
 
+customhost = 'employee-data.cnww866w2wxc.ap-south-1.rds.amazonaws.com'
+
 db_conn = connections.Connection(
     host=customhost,
     port=3306,
